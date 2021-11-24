@@ -4,7 +4,7 @@ module.exports={
         "name" : "Caleb Williams",
         "phone" : "(512)-426-4576",
         "email" : "caleb@noodahl.com",
-        "url": "https://github.com/caleb-noodahl/resume_website",
+        "url": "https://www.linkedin.com/in/calebraywilliams/",
         "spec" : "Application & Database Developer, Site Reliability Engineer"
     },
     "summary" : {
@@ -12,8 +12,8 @@ module.exports={
         "expertise" : [
             {
                 "name" : "Languages",
-                "value" : "C#, T-SQL, Javascript, NodeJS",
-                "length" : "3-6 years experience"
+                "value" : "C#, T-SQL, Javascript, NodeJS, Golang",
+                "length" : "2-8 years experience"
             },
             {
                 "name" : "Version Control",
@@ -27,17 +27,17 @@ module.exports={
             },
             {
                 "name": "Frameworks/Tooling",
-                "value" : "Selenium, Nunit, WPF, Winforms, ASP.NET MVC, Vue.js, Splunk, Jira, MongoDB Ops, RabbitMQ, PM2, PCF, Akamai",
+                "value" : "Selenium, Nunit, WPF, Winforms, ASP.NET MVC, Vue.js, Splunk, Jira, MongoDB Ops, RabbitMQ, PM2, PCF, Akamai, Kubernetes, Helm, Docker, Datadog",
+                "length" : ""
+            },
+            {
+                "name": "Cloud Tooling",
+                "value" : "AWS, Azure, GCP SDK(s), Terrafrom, cdktf",
                 "length" : ""
             },
             {
                 "name" : "Other Skills",
                 "value" : "Agile scrum methodology. Design and architecture planning. Junior Developer mentoriship.",
-                "length" : ""
-            },
-            {
-                "name" : "Learning/Interests",
-                "value" : "Gitlab, Golang, Firebase, AWS, PCF",
                 "length" : ""
             }
         ]
@@ -53,12 +53,27 @@ module.exports={
     ],
     "work_history" : [
         {
+            "company" : "DATASTAX",
+            "title" : "CLOUD PLATFORM ENGINEER",
+            "project" : "Astra Serverless, Enterprise Cassandra",
+            "location" : "Austin, TX",
+            "time" : "Mar 2012 - Current",
+            "length" : "",
+            "notes" : [
+                "Tuned cloud agnostic deployments of Kubernetes & infrasturcture in AWS, GCP, & Azure envrionments.",
+                "Handled and resolved client impacting incidents while participating on call rotations.",
+                "Refactored and expanded billing critial AWS Lambda components.",
+                "Complied runbooks and expanded existing documentation while creating new Kubernetes infrastructure.",
+                "Created custom Terraform definitions relating to new Private Link features across AWS, GCP, & Azure."
+            ]
+        },
+        {
             "company" : "CHARLES SCHWAB",
             "title" : "SITE RELIABILITY ENGINEER",
             "project" : "Schwab Intelligent Portfolios",
             "location" : "Austin, TX",
-            "time" : "Nov 2016 - Current",
-            "length" : "",
+            "time" : "Nov 2016 - Mar 2021",
+            "length" : "4yrs 5mos",
             "notes" : [
                 "Created custom middleware software connecting Jira, BMC Remedy, Bitbucket, Splunk & MongoDB to expedite root cause analysis from client escalations.",
                 "Technological spearhead for Site Reliability Initiative; a transition from traditional system operations supporting strategy an automation focused model.",
