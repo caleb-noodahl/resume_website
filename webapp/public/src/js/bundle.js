@@ -5,39 +5,39 @@ module.exports={
         "phone" : "(512)-426-4576",
         "email" : "caleb@noodahl.com",
         "url": "https://www.linkedin.com/in/calebraywilliams/",
-        "spec" : "Application & Database Developer, Site Reliability Engineer"
+        "spec" : "Application & Database Developer, Senior Software Engineer, Site Reliability Engineer"
     },
     "summary" : {
-        "desc" : "Experienced full stack developer with a demonstrated history of working in financial services, offshore drilling, and industrial safety industries. Practiced in building and supporting enterprise applications with specializations in T-SQL, MongoDB, C# & NodeJS.",
+        "desc" : "Experienced full stack developer with a demonstrated history of working in financial services, offshore oil & gas, industrial safety, and marketing industries.  Practiced in building and supporting enterprise applications with specializations in T-SQL, MongoDB, C#, NodeJS & Golang.",
         "expertise" : [
             {
                 "name" : "Languages",
                 "value" : "C#, T-SQL, Javascript, NodeJS, Golang",
-                "length" : "2-8 years experience"
+                "length" : "4-10 years experience"
             },
             {
                 "name" : "Version Control",
-                "value" : "Github, Bitbucket, SVN, TFS, Liquibase",
+                "value" : "Github, Bitbucket, SVN, TFS, Liquibase, DB-Migrate",
                 "length" : ""
             },
             {
                 "name" : "IDEs",
-                "value" : "Visual Studio Code, Visual Studios 2010 - Current, Microsoft SQL Management Studio, Studio3T",
+                "value" : "Visual Studio Code, Visual Studios 2010 - Current, Microsoft SQL Management Studio, Studio3T, PgAdmin",
                 "length" : ""
             },
             {
                 "name": "Frameworks/Tooling",
-                "value" : "Selenium, Nunit, WPF, Winforms, ASP.NET MVC, Vue.js, Splunk, Jira, MongoDB Ops, RabbitMQ, PM2, PCF, Akamai, Kubernetes, Helm, Docker, Datadog",
+                "value" : "Selenium, Nunit, WPF, Winforms, ASP.NET MVC, Vue.js, Splunk, Jira, MongoDB Ops, RabbitMQ, PM2, PCF, Akamai, Kubernetes, Helm, Docker, Datadog, Twilio, Sendgrid, Honeycomb",
                 "length" : ""
             },
             {
                 "name": "Cloud Tooling",
-                "value" : "AWS, Azure, GCP SDK(s), Terrafrom, cdktf",
+                "value" : "AWS Lambda, AWS, Azure, GCP SDK(s), Terrafrom, cdktf",
                 "length" : ""
             },
             {
                 "name" : "Other Skills",
-                "value" : "Agile scrum methodology. Design and architecture planning. Junior Developer mentoriship.",
+                "value" : "Agile scrum methodology. Design and architecture planning. Junior Developer mentorship.",
                 "length" : ""
             }
         ]
@@ -53,18 +53,33 @@ module.exports={
     ],
     "work_history" : [
         {
+            "company" : "CATCH+RELEASE",
+            "title" : "SENIOR SOFTWARE ENGINEER",
+            "project" : "https://www.catchandrelease.com/",
+            "location" : "Austin, TX",
+            "time" : "Dec 2021 - Current",
+            "length" : "",
+            "notes" : [
+                "Designed and implemented comprehensive client messaging solution integrating Sendgrid, Twilio, Slack functionality into a single microservice",
+                "Foundational senior engineer on a complete overhaul of a Ruby on Rails system into Golang microservices.",
+                "Assessed viability and provided cost benefit analysis on third party vendor solutions.",
+                "Built and modified idempotent content clearance and licensing workflow automation using temporal.io.",
+                "Deployed environment specific AWS infrastructure using Terraform and AWS Console"
+            ]
+        },
+        {
             "company" : "DATASTAX",
             "title" : "CLOUD PLATFORM ENGINEER",
             "project" : "Astra Serverless, Enterprise Cassandra",
             "location" : "Austin, TX",
-            "time" : "Mar 2012 - Current",
-            "length" : "",
+            "time" : "Mar 2021 - Dec 2021",
+            "length" : "10 mos",
             "notes" : [
-                "Tuned cloud agnostic deployments of Kubernetes & infrasturcture in AWS, GCP, & Azure envrionments.",
+                "Tuned cloud agnostic deployments of Kubernetes & infrastructure in AWS, GCP, & Azure environments.",
                 "Handled and resolved client impacting incidents while participating on call rotations.",
-                "Refactored and expanded billing critial AWS Lambda components.",
-                "Complied runbooks and expanded existing documentation while creating new Kubernetes infrastructure.",
-                "Created custom Terraform definitions relating to new Private Link features across AWS, GCP, & Azure."
+                "Refactored and expanded billing critical AWS Lambda components.",
+                "Complied run-books and expanded existing documentation while creating new Kubernetes infrastructure.",
+                "Created custom Terraform definitions relating to new Private Link features across AWS, GCP, & Azure cloud providers."
             ]
         },
         {

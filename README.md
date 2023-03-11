@@ -15,7 +15,7 @@ Step #1 : Regenerate the js bundle (assumes [browserify](http://browserify.org/)
 ```shell
 
 cd C:\Code\resume_website\webapp\app
-browserify main.js -o C:\Code\resume_website\webapp\public\src\js\bundle.js
+browserify main.js -o <bundle.js location> C:\Code\resume_website\webapp\public\src\js\bundle.js
 
 ```
 
