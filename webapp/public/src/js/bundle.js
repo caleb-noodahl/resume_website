@@ -32,7 +32,7 @@ module.exports={
             },
             {
                 "name": "Cloud Tooling",
-                "value" : "AWS Lambda, AWS, Azure, GCP SDK(s), Terrafrom, cdktf",
+                "value" : "AWS Lambda, AWS, Azure, GCP SDK(s), Terraform, cdktf",
                 "length" : ""
             },
             {
@@ -55,13 +55,13 @@ module.exports={
         {
             "company" : "CATCH+RELEASE",
             "title" : "SENIOR SOFTWARE ENGINEER",
-            "project" : "https://www.catchandrelease.com/",
+            "project" : "catchandrelease.com/",
             "location" : "Austin, TX",
             "time" : "Dec 2021 - Current",
             "length" : "",
             "notes" : [
                 "Designed and implemented comprehensive client messaging solution integrating Sendgrid, Twilio, Slack functionality into a single microservice",
-                "Foundational senior engineer on a complete overhaul of a Ruby on Rails system into Golang microservices.",
+                "Foundational senior engineer on a complete overhaul of a pre existing system into Golang microservices.",
                 "Assessed viability and provided cost benefit analysis on third party vendor solutions.",
                 "Built and modified idempotent content clearance and licensing workflow automation using temporal.io.",
                 "Deployed environment specific AWS infrastructure using Terraform and AWS Console"
